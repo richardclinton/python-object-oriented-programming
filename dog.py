@@ -6,6 +6,9 @@ class Dog:
     def __init__(self, name):
         self.name = name
         
+    def speak(self):
+        print("My name is {}".format(self.name))
+        
         
 # Object instantiation
 Rodger = Dog('Rodger')
@@ -17,3 +20,6 @@ print('Tommy is a {}'.format(Tommy.__class__.attr1))
 # Accessing instance attribute
 print("My name is {}".format(Rodger.name))
 print("My name is {}".format(Tommy.name))
+# Accessing class method
+Rodger.speak()
+Tommy.speak()
