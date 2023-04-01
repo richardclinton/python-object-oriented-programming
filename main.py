@@ -21,5 +21,10 @@ obj = Dog()
 # This is similar to `this` pointer in C++ and `this` reference in Java.
 # When we call a method of this object as myObject.method(arg1,arg2), this is automatically converted by Python
 # into MyClass.method(myObject, arg1, arg2)
+
+# The __init__ method
+# This is similar to constructors in C++ and Java. It is run as soon as object of the class is instantiated.
+# The method is useful to do any initialization you want to do with your object
+
     
     
