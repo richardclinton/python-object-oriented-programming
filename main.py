@@ -5,4 +5,12 @@ class ClassName:
     # .
     # .
     # Statement-N
+    pass
+    
+# Object definition
+class Dog:
+    pass
+
+obj = Dog()
+    
     
