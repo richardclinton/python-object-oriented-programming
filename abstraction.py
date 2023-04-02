@@ -52,3 +52,17 @@ class Rabbit(Animal):
         
 rabbit =  Rabbit()
 rabbit.sound()
+
+# If we do not provide any implementation of an abstract method in the child class, an error is 
+# produced. Notice, even when we have given implementation of sound() method in the base class, not
+# providing an implementation in the child class will produce an error.
+
+class Deer(Animal):
+    def sound(self):
+        pass
+    
+    
+deer = Deer()
+deer.sound()
+deer.sleep()
+
