@@ -20,4 +20,16 @@ class Ostrich(Bird):
         print("ostriches cannot fly.")
         
         
+        
+bird = Bird()
+sparrow = Sparrow()
+ostrich = Ostrich()
+bird.intro()
+bird.flight()
+print("")
+sparrow.intro()
+sparrow.flight()
+print("")
+ostrich.intro()
+ostrich.flight()
     
