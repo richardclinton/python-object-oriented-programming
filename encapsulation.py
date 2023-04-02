@@ -20,3 +20,11 @@ class Derived(Base):
         
 base = Base()
 print(base.a)
+
+# print(base.__c) will raise AttributeError
+
+# derived = Derived() will also raise AttributeError as private member of base
+# class is called inside derived class.
+
+# In above code, we have created the variable `c` as the private attribute. We
+# cannot even access this attribute directly and can't even change it's value.
