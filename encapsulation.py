@@ -16,3 +16,7 @@ class Derived(Base):
         super().__init__()
         print("Calling private member of the of base class.")
         print(self.__c)
+        
+        
+base = Base()
+print(base.a)
