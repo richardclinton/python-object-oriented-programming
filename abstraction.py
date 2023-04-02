@@ -42,3 +42,13 @@ cat.sound()
 
 snake = Snake()
 snake.sound()
+
+# If we want to access the sound() function of the base class itself, we can use the object of the child class,
+# but we will have to invoke it throught super().
+class Rabbit(Animal):
+    def sound(self):
+        super().sound() 
+        print("I can squeak")
+        
+rabbit =  Rabbit()
+rabbit.sound()
